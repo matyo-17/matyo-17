@@ -78,7 +78,7 @@ Aside from building software, I am also interested in:
 
 ### 🗒️ Previous & Current Projects
 - Research paper search engine
-- Chatbot &emsp;<span style="color:#f44336">FAILED</span>
+- ~~Chatbot~~ &emsp; *(FAILED)*
 - Stream ciphers
 - Payment gateway
 - Cryptocurrency algorithmic trading bot
