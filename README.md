@@ -97,9 +97,7 @@ Read the message above 👆
 <br>
 
 ---
-<div style="text-align:center;">
-Made with ❤️ by <a href="https://github.com/matyo-17" target="_blank">@matyo-17</a>
-</div>
+Made with ❤️ by ([@matyo-17](https://github.com/matyo-17))
 
 <!--
 **matyo-17/matyo-17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
