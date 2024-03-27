@@ -14,64 +14,64 @@ Aside from building software, I am also interested in:
 > The :malaysia: flag will not be rendered correctly on some platforms
 
 ### 🔨 Language & Tools
-- <img src="icons/php.png" style="width:2rem;height:2rem;vertical-align:middle;"/> PHP
+- ![php](/icons/php.png) PHP
   ```php
   $framework = "Laravel";
   ```
   
-- <img src="icons/python.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Python
+- ![python](/icons/python.png) Python
   ```python
   frameworks = ["Django", "FastAPI"]
   libraries = ["pandas", "TA-Lib"]
   ```
 
-- <img src="icons/mysql.png" style="width:2rem;height:2rem;vertical-align:middle;"/> MySQL
+- ![mysql](/icons/mysql.png) MySQL
 
-- <img src="icons/sqlite.png" style="width:2rem;height:2rem;vertical-align:middle;"/> SQLite
+- ![sqlite](/icons/sqlite.png) SQLite
 
-- <img src="icons/redis.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Redis
+- ![redis](/icons/redis.png) Redis
 
-- <img src="icons/js.png" style="width:2rem;height:2rem;vertical-align:middle;"/> JavaScript
+- ![js](/icons/js.png) JavaScript
     ```js
     var libary = "jQuery";
     ```
 
-- <img src="icons/css.png" style="width:2rem;height:2rem;vertical-align:middle;"/> CSS
+- ![css](/icons/css.png) CSS
 
-- <img src="icons/html.png" style="width:2rem;height:2rem;vertical-align:middle;"/> HTML
+- ![html](/icons/html.png) HTML
 
-- <img src="icons/git.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Git
-  - <img src="icons/github.png" style="width:2rem;height:2rem;vertical-align:middle;"/> GitHub
-  - <img src="icons/gitlab.png" style="width:2rem;height:2rem;vertical-align:middle;"/> GitLab
+- ![git](/icons/git.png) Git
+  - ![github](/icons/github.png) GitHub
+  - ![gitlab](/icons/gitlab.png) GitLab
 
-- <img src="icons/vscode.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Visual Studio Code
+- ![vscode](/icons/vscode.png) Visual Studio Code
 
-- <img src="icons/postman.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Postman
+- ![postman](/icons/postman.png) Postman
 
 ### 🌱 Currently Leaning
-- <img src="icons/nginx.png" style="width:2rem;height:2rem;vertical-align:middle;"/> NGINX
+- ![nginx](/icons/nginx.png) NGINX
 
-- <img src="icons/docker.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Docker
+- ![docker](/icons/docker.png) Docker
 
 - Microservices
 
 ### 📦 Previously Learnt
-- <img src="icons/c.png" style="width:2rem;height:2rem;vertical-align:middle;"/> C Programming Language
+- ![c](/icons/c.png) C Programming Language
     ```c
     char name[50] = "C Programming Language";
     ```
 
-- <img src="icons/java.png" style="width:2rem;height:2rem;vertical-align:middle;"/> JAVA
+- ![java](/icons/java.png) JAVA
     ```java
     String name = "Java";
     ```
 
-- <img src="icons/matlab.png" style="width:2rem;height:2rem;vertical-align:middle;"/> MATLAB
+- ![matlab](/icons/matlab.png) MATLAB
     ```matlab
     name = "MATLAB"
     ```
 
-- <img src="icons/haskell.png" style="width:2rem;height:2rem;vertical-align:middle;"/> Haskell
+- ![haskell](/icons/haskell.png) Haskell
     ```haskell
     name = "Haskell" :: [Char]
     ```
