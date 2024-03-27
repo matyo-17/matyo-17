@@ -41,9 +41,7 @@ Aside from building software, I am also interested in:
 - ![html](/icons/html.png) HTML
 
 - ![git](/icons/git.png) Git
-  - ![github-light](/icons/github-light.png)
-    ![github-dark](/icons/github-dark.png)
-    GitHub
+  - ![github-dark](/icons/github-dark.png) GitHub
   - ![gitlab](/icons/gitlab.png) GitLab
 
 - ![vscode](/icons/vscode.png) Visual Studio Code
