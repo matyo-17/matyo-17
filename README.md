@@ -80,6 +80,7 @@ Aside from building software, I am also interested in:
 - Research paper search engine
 - ~~Chatbot~~ &emsp; *(FAILED)*
 - Stream ciphers
+- Web scraping
 - Payment gateway
 - Cryptocurrency algorithmic trading bot
 
