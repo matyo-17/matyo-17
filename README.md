@@ -1,5 +1,4 @@
-# matyo-17
-![GitHub last commit](https://img.shields.io/github/last-commit/matyo-17/matyo-17?label=last%20updated)
+## matyo-17 ![GitHub last commit](https://img.shields.io/github/last-commit/matyo-17/matyo-17?label=last%20updated)
 
 ```php
 class AboutMe {
@@ -146,9 +145,6 @@ echo $about_me->introduce();
 <a href="https://www.haskell.org/">
     <img height="25" width="25" src="icons/haskell.svg">
 </a>&nbsp;
-
----
-Made with ❤️ by [@matyo-17](https://github.com/matyo-17)
 
 <!--
 **matyo-17/matyo-17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
