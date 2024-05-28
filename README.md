@@ -24,9 +24,9 @@ class AboutMe {
         $string .= "<p>Based in: ".ucfirst($this->base)."</p>";
         $string .= "<p>Website: ".$this->get_website()."</p>";
         $string .= "<p>Email: ".$this->email."</p>";
-        $string .= "<p>Fields interested: ".$this->get_fields_interested()."</p>";
-        $string .= "<p>Favourite programming language: ".$this->get_fav_programming_lang()."</p>";
-        $string .= "<p>Open sources: ".$this->get_open_sources()."<br>";
+        $string .= "<p>Fields interested: ".$this->array_to_string("fields_interested", true)."</p>";
+        $string .= "<p>Favourite programming language: ".$this->array_to_string("fav_programming_lang")."</p>";
+        $string .= "<p>Open sources: ".$this->array_to_string("open_sources", true, true)."<br>";
         return $string;
     }
 
@@ -38,35 +38,20 @@ class AboutMe {
         return "<a href='".$this->website."'>".$this->website."</a>";
     }
 
-    private function get_fav_programming_lang(): string {
-        $string = "";
-        foreach ($this->fav_programming_lang as $lang) {
-            $string .= $lang.", ";
+    private function array_to_string(string $var, bool $list=false, bool $links=false): string {
+        $string = ($list) ? "<ul>" : "";
+        foreach ($this->{$var} as $e) {
+            $string .= ($list) ? "<li>" : "";
+            $string .= ($links) ? "<a href='".$e."'>" : "";
+            $string .= $e.((!$list) ? ", " : "");
+            $string .= ($links) ? "</a>" : "";
+            $string .= ($list) ? "</li>" : "";
         }
-        return substr($string, 0, -2);
-    }
-
-    private function get_fields_interested(): string {
-        $string = "<ul>";
-        foreach ($this->fields_interested as $field) {
-            $string .= "<li>".$field."</li>";
-        }
-        $string .= "</ul>";
-        return $string;
-    }
-
-    private function get_open_sources(): string {
-        $string = "<ul>";
-        foreach ($this->open_sources as $link) {
-            $string .= "<li><a href='".$link."'>".$link."</a></li>";
-        }
-        $string .= "</ul>";
-        return $string;
+        return ($list) ? $string."</ul>" : substr($string, 0, -2);
     }
 }
 
-$about_me = new AboutMe();
-echo $about_me->introduce();
+echo (new AboutMe())->introduce();
 ```
 
 ### 🔨 Language & Tools
