@@ -57,82 +57,82 @@ echo (new AboutMe())->introduce();
 ### 🔨 Language & Tools
 
 <a href="https://www.php.net/">
-    <img height="25" width="25" src="icons/php.svg">
+    <img  height="20" width="20" src="icons/php.svg">
 </a>&nbsp;
 <a href="https://www.python.org/">
-    <img height="25" width="25" src="icons/python.svg">
+    <img  height="20" width="20" src="icons/python.svg">
 </a>&nbsp;
 <a href="https://www.cprogramming.com/">
-    <img height="25" width="25" src="icons/c.svg">
+    <img  height="20" width="20" src="icons/c.svg">
 </a>&nbsp;
 <a href="https://www.java.com/en/">
-    <img height="25" width="25" src="icons/java.svg">
+    <img  height="20" width="20" src="icons/java.svg">
 </a>&nbsp;
 <a href="https://laravel.com/">
-    <img height="25" width="25" src="icons/laravel.svg">
+    <img  height="20" width="20" src="icons/laravel.svg">
 </a>&nbsp;
 <a href="https://www.djangoproject.com/">
-    <img height="25" width="25" src="icons/django.svg">
+    <img  height="20" width="20" src="icons/django.svg">
 </a>&nbsp;
 <a href="https://fastapi.tiangolo.com/">
-    <img height="25" width="25" src="icons/fastapi.svg">
+    <img  height="20" width="20" src="icons/fastapi.svg">
 </a>&nbsp;
 <a href="https://numpy.org/">
-    <img height="25" width="25" src="icons/numpy.svg">
+    <img  height="20" width="20" src="icons/numpy.svg">
 </a>&nbsp;
 <a href="https://pandas.pydata.org/">
-    <img height="25" width="25" src="icons/pandas.svg">
+    <img  height="20" width="20" src="icons/pandas.svg">
 </a>&nbsp;
 <a href="https://www.selenium.dev/">
-    <img height="25" width="25" src="icons/selenium.svg">
+    <img  height="20" width="20" src="icons/selenium.svg">
 </a>&nbsp;
 <a href="https://www.mysql.com/">
-    <img height="25" width="25" src="icons/mysql.svg">
+    <img  height="20" width="20" src="icons/mysql.svg">
 </a>&nbsp;
 <a href="https://www.sqlite.org/">
-    <img height="25" width="25" src="icons/sqlite.svg">
+    <img  height="20" width="20" src="icons/sqlite.svg">
 </a>&nbsp;
 <a href="https://redis.io/">
-    <img height="25" width="25" src="icons/redis.svg">
+    <img  height="20" width="20" src="icons/redis.svg">
 </a>&nbsp;
 <a href="https://www.javascript.com/">
-    <img height="25" width="25" src="icons/javascript.svg">
+    <img  height="20" width="20" src="icons/javascript.svg">
 </a>&nbsp;
 <a href="https://html.spec.whatwg.org/multipage/">
-    <img height="25" width="25" src="icons/html.svg">
+    <img  height="20" width="20" src="icons/html.svg">
 </a>&nbsp;
 <a href="https://www.w3.org/Style/CSS/Overview.en.html">
-    <img height="25" width="25" src="icons/css.svg">
+    <img  height="20" width="20" src="icons/css.svg">
 </a>&nbsp;
 <a href="https://nginx.org/en/">
-    <img height="25" width="25" src="icons/nginx.svg">
+    <img  height="20" width="20" src="icons/nginx.svg">
 </a>&nbsp;
 <a href="https://httpd.apache.org/">
-    <img height="25" width="25" src="icons/apache.svg">
+    <img  height="20" width="20" src="icons/apache.svg">
 </a>&nbsp;
 <a href="https://www.docker.com/">
-<img height="25" width="25" src="icons/docker.svg">
+<img  height="20" width="20" src="icons/docker.svg">
 </a>&nbsp;
 <a href="https://git-scm.com/">
-    <img height="25" width="25" src="icons/git.svg">
+    <img  height="20" width="20" src="icons/git.svg">
 </a>&nbsp;
 <a href="https://github.com/">
-    <img height="25" width="25" src="icons/github.svg">
+    <img  height="20" width="20" src="icons/github.svg">
 </a>&nbsp;
 <a href="https://about.gitlab.com/">
-<img height="25" width="25" src="icons/gitlab.svg">
+<img  height="20" width="20" src="icons/gitlab.svg">
 </a>&nbsp;
 <a href="https://code.visualstudio.com/">
-    <img height="25" width="25" src="icons/vscode.svg">
+    <img  height="20" width="20" src="icons/vscode.svg">
 </a>&nbsp;
 <a href="https://www.postman.com/">
-    <img height="25" width="25" src="icons/postman.svg">
+    <img  height="20" width="20" src="icons/postman.svg">
 </a>&nbsp;
 <a href="https://www.mathworks.com/products/matlab.html">
-    <img height="25" width="25" src="icons/matlab.svg">
+    <img  height="20" width="20" src="icons/matlab.svg">
 </a>&nbsp;
 <a href="https://www.haskell.org/">
-    <img height="25" width="25" src="icons/haskell.svg">
+    <img  height="20" width="20" src="icons/haskell.svg">
 </a>&nbsp;
 
 <!--
