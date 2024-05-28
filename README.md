@@ -67,8 +67,7 @@ echo (new AboutMe())->introduce();
 </a>&nbsp;
 <a href="https://www.java.com/en/">
     <img height="25" width="25" src="icons/java.svg">
-</a>
-&nbsp;
+</a>&nbsp;
 <a href="https://laravel.com/">
     <img height="25" width="25" src="icons/laravel.svg">
 </a>&nbsp;
@@ -78,10 +77,12 @@ echo (new AboutMe())->introduce();
 <a href="https://fastapi.tiangolo.com/">
     <img height="25" width="25" src="icons/fastapi.svg">
 </a>&nbsp;
+<a href="https://numpy.org/">
+    <img height="25" width="25" src="icons/numpy.svg">
+</a>&nbsp;
 <a href="https://pandas.pydata.org/">
     <img height="25" width="25" src="icons/pandas.svg">
-</a>
-&nbsp;
+</a>&nbsp;
 <a href="https://www.mysql.com/">
     <img height="25" width="25" src="icons/mysql.svg">
 </a>&nbsp;
