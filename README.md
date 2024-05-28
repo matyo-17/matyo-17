@@ -1,104 +1,154 @@
 # matyo-17
 ![GitHub last commit](https://img.shields.io/github/last-commit/matyo-17/matyo-17?label=last%20updated)
 
-### General Information
-Hi there 👋,  
-I am **Teo Filson** ([@matyo-17](https://github.com/matyo-17)), a software engineer based in Malaysia :malaysia:  
-Aside from building software, I am also interested in:
-- artificial intelligence
-- machine learning
-- robotics
-- image processing
+```php
+class AboutMe {
+    protected string $base = "malaysia";
+    protected string $first_name = "Filson";
+    protected string $last_name = "Teo";
+    protected string $email = "filsonteo@gmail.com";
+    protected string $description = "a software developer";
+    protected string $website = "https://matyo-17.github.io/";
+    protected array $fav_programming_lang = ["php", "python", "javascript"];
+    protected array $fields_interested = [
+        "software development", "artificial intelligence", "machine learning",
+        "robotics", "image processing",
+    ];
+    protected array $open_sources = [
+        "https://github.com/matyo-17/mysql-backup",
+        "https://github.com/matyo-17/fotmob-sdk",
+    ];
 
-> [!NOTE]
-> The :malaysia: flag will not be rendered correctly on some platforms
+    public function introduce(): string {
+        $string = "<p>Name: ".$this->get_name()."</p>";
+        $string .= "<p>Overview: ".$this->description."</p>";
+        $string .= "<p>Based in: ".ucfirst($this->base)."</p>";
+        $string .= "<p>Website: ".$this->get_website()."</p>";
+        $string .= "<p>Email: ".$this->email."</p>";
+        $string .= "<p>Fields interested: ".$this->get_fields_interested()."</p>";
+        $string .= "<p>Favourite programming language: ".$this->get_fav_programming_lang()."</p>";
+        $string .= "<p>Open sources: ".$this->get_open_sources()."<br>";
+        return $string;
+    }
+
+    private function get_name(): string {
+        return $this->first_name." ".$this->last_name;
+    }
+
+    private function get_website(): string {
+        return "<a href='".$this->website."'>".$this->website."</a>";
+    }
+
+    private function get_fav_programming_lang(): string {
+        $string = "";
+        foreach ($this->fav_programming_lang as $lang) {
+            $string .= $lang.", ";
+        }
+        return substr($string, 0, -2);
+    }
+
+    private function get_fields_interested(): string {
+        $string = "<ul>";
+        foreach ($this->fields_interested as $field) {
+            $string .= "<li>".$field."</li>";
+        }
+        $string .= "</ul>";
+        return $string;
+    }
+
+    private function get_open_sources(): string {
+        $string = "<ul>";
+        foreach ($this->open_sources as $link) {
+            $string .= "<li><a href='".$link."'>".$link."</a></li>";
+        }
+        $string .= "</ul>";
+        return $string;
+    }
+}
+
+$about_me = new AboutMe();
+echo $about_me->introduce();
+```
 
 ### 🔨 Language & Tools
-- ![php](/icons/php.png) PHP
-  ```php
-  $framework = "Laravel";
-  ```
-  
-- ![python](/icons/python.png) Python
-  ```python
-  frameworks = ["Django", "FastAPI"]
-  libraries = ["pandas", "TA-Lib"]
-  ```
 
-- ![mysql](/icons/mysql.png) MySQL
-
-- ![sqlite](/icons/sqlite.png) SQLite
-
-- ![redis](/icons/redis.png) Redis
-
-- ![js](/icons/js.png) JavaScript
-    ```js
-    var libary = "jQuery";
-    ```
-
-- ![css](/icons/css.png) CSS
-
-- ![html](/icons/html.png) HTML
-
-- ![git](/icons/git.png) Git
-  - ![github-dark](/icons/github-dark.png) GitHub
-  - ![gitlab](/icons/gitlab.png) GitLab
-
-- ![vscode](/icons/vscode.png) Visual Studio Code
-
-- ![postman](/icons/postman.png) Postman
-
-### 🌱 Currently Leaning
-- ![nginx](/icons/nginx.png) NGINX
-
-- ![docker](/icons/docker.png) Docker
-
-- Microservices
-
-### 📦 Previously Learnt
-- ![c](/icons/c.png) C Programming Language
-    ```c
-    char name[50] = "C Programming Language";
-    ```
-
-- ![java](/icons/java.png) JAVA
-    ```java
-    String name = "Java";
-    ```
-
-- ![matlab](/icons/matlab.png) MATLAB
-    ```matlab
-    name = "MATLAB"
-    ```
-
-- ![haskell](/icons/haskell.png) Haskell
-    ```haskell
-    name = "Haskell" :: [Char]
-    ```
-
-### 🗒️ Previous & Current Projects
-- Research paper search engine
-- ~~Chatbot~~ &emsp; *(FAILED)*
-- Stream ciphers
-- Web scraping
-- Payment gateway
-- Cryptocurrency algorithmic trading bot
-
-### ⚡ Fun Facts
-The 2 statements below are examples of a recursion
-> [!WARNING]
-> This recursion will cause memory exhaustion, proceed with care
-```
-Read the message below 👇
-```
-```
-Read the message above 👆
-```
-
-<br>
+<a href="https://www.php.net/">
+    <img height="25" width="25" src="icons/php.svg">
+</a>&nbsp;
+<a href="https://www.python.org/">
+    <img height="25" width="25" src="icons/python.svg">
+</a>&nbsp;
+<a href="https://www.cprogramming.com/">
+    <img height="25" width="25" src="icons/c.svg">
+</a>&nbsp;
+<a href="https://www.java.com/en/">
+    <img height="25" width="25" src="icons/java.svg">
+</a>
+&nbsp;
+<a href="https://laravel.com/">
+    <img height="25" width="25" src="icons/laravel.svg">
+</a>&nbsp;
+<a href="https://www.djangoproject.com/">
+    <img height="25" width="25" src="icons/django.svg">
+</a>&nbsp;
+<a href="https://fastapi.tiangolo.com/">
+    <img height="25" width="25" src="icons/fastapi.svg">
+</a>&nbsp;
+<a href="https://pandas.pydata.org/">
+    <img height="25" width="25" src="icons/pandas.svg">
+</a>
+&nbsp;
+<a href="https://www.mysql.com/">
+    <img height="25" width="25" src="icons/mysql.svg">
+</a>&nbsp;
+<a href="https://www.sqlite.org/">
+    <img height="25" width="25" src="icons/sqlite.svg">
+</a>&nbsp;
+<a href="https://redis.io/">
+    <img height="25" width="25" src="icons/redis.svg">
+</a>&nbsp;
+<a href="https://www.javascript.com/">
+    <img height="25" width="25" src="icons/javascript.svg">
+</a>&nbsp;
+<a href="https://html.spec.whatwg.org/multipage/">
+    <img height="25" width="25" src="icons/html.svg">
+</a>&nbsp;
+<a href="https://www.w3.org/Style/CSS/Overview.en.html">
+    <img height="25" width="25" src="icons/css.svg">
+</a>&nbsp;
+<a href="https://nginx.org/en/">
+    <img height="25" width="25" src="icons/nginx.svg">
+</a>&nbsp;
+<a href="https://httpd.apache.org/">
+    <img height="25" width="25" src="icons/apache.svg">
+</a>&nbsp;
+<a href="https://www.docker.com/">
+<img height="25" width="25" src="icons/docker.svg">
+</a>&nbsp;
+<a href="https://git-scm.com/">
+    <img height="25" width="25" src="icons/git.svg">
+</a>&nbsp;
+<a href="https://github.com/">
+    <img height="25" width="25" src="icons/github.svg">
+</a>&nbsp;
+<a href="https://about.gitlab.com/">
+<img height="25" width="25" src="icons/gitlab.svg">
+</a>&nbsp;
+<a href="https://code.visualstudio.com/">
+    <img height="25" width="25" src="icons/vscode.svg">
+</a>&nbsp;
+<a href="https://www.postman.com/">
+    <img height="25" width="25" src="icons/postman.svg">
+</a>&nbsp;
+<a href="https://www.mathworks.com/products/matlab.html">
+    <img height="25" width="25" src="icons/matlab.svg">
+</a>&nbsp;
+<a href="https://www.haskell.org/">
+    <img height="25" width="25" src="icons/haskell.svg">
+</a>&nbsp;
 
 ---
-Made with ❤️ by ([@matyo-17](https://github.com/matyo-17))
+Made with ❤️ by [@matyo-17](https://github.com/matyo-17)
 
 <!--
 **matyo-17/matyo-17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
