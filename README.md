@@ -83,6 +83,9 @@ echo (new AboutMe())->introduce();
 <a href="https://pandas.pydata.org/">
     <img height="25" width="25" src="icons/pandas.svg">
 </a>&nbsp;
+<a href="https://www.selenium.dev/">
+    <img height="25" width="25" src="icons/selenium.svg">
+</a>&nbsp;
 <a href="https://www.mysql.com/">
     <img height="25" width="25" src="icons/mysql.svg">
 </a>&nbsp;
