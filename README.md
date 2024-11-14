@@ -8,6 +8,7 @@ class AboutMe {
     protected string $email = "filsonteo@gmail.com";
     protected string $description = "a software developer";
     protected string $website = "https://matyo-17.github.io/";
+    protected string $linkedin = "https://www.linkedin.com/in/filson-teo-7a380a20b/";
     protected array $fav_programming_lang = ["php", "python", "javascript"];
     protected array $fields_interested = [
         "software development", "artificial intelligence", "machine learning",
@@ -22,11 +23,14 @@ class AboutMe {
         $string = "<p>Name: ".$this->get_name()."</p>";
         $string .= "<p>Overview: ".$this->description."</p>";
         $string .= "<p>Based in: ".ucfirst($this->base)."</p>";
-        $string .= "<p>Website: ".$this->get_website()."</p>";
+        $string .= "<p>Website: ".$this->get_links("website")."</p>";
+        $string .= "<p>LinkedIn: ".$this->get_links("linkedin")."</p>";
         $string .= "<p>Email: ".$this->email."</p>";
         $string .= "<p>Fields interested: ".$this->array_to_string("fields_interested", true)."</p>";
         $string .= "<p>Favourite programming language: ".$this->array_to_string("fav_programming_lang")."</p>";
-        $string .= "<p>Open sources: ".$this->array_to_string("open_sources", true, true)."<br>";
+        $string .= "<p>Open sources: ".$this->array_to_string("open_sources", true, true)."<p>";
+        $string .= "<br>";
+        $string .= "<p>This is a summary of me. Visit my website for more details.</p>";
         return $string;
     }
 
@@ -34,8 +38,8 @@ class AboutMe {
         return $this->first_name." ".$this->last_name;
     }
 
-    private function get_website(): string {
-        return "<a href='".$this->website."'>".$this->website."</a>";
+    private function get_links(string $purpose): string {
+        return "<a href='".$this->$purpose."'>".$this->$purpose."</a>";
     }
 
     private function array_to_string(string $var, bool $list=false, bool $links=false): string {
